@@ -29,22 +29,22 @@ async function getWeatherData(city) {
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
     if(data.weather[0].main == "Clouds"){
-        myImg.src = "/image/clouds.png"
+        myImg.src = "./image/clouds.png"
     }
     if(data.weather[0].main == "Clear"){
-        myImg.src = "/image/clear.png"
+        myImg.src = "./image/clear.png"
     }
     if(data.weather[0].main == "Drizzle"){
-        myImg.src = "/image/drizzle.png"
+        myImg.src = "./image/drizzle.png"
     }
     if(data.weather[0].main == "Mist"){
-        myImg.src = "/image/mist.png"
+        myImg.src = "./image/mist.png"
     }
     if(data.weather[0].main == "Snow"){
-        myImg.src = "/image/snow.png"
+        myImg.src = "./image/snow.png"
     }
     if(data.weather[0].main == "Rain"){
-        myImg.src = "/image/rain.png"
+        myImg.src = "./image/rain.png"
     }
     document.querySelector(".error").style.display = "none";
     // document.querySelector(".city").style.display = "block";
