@@ -17,7 +17,7 @@ async function getWeatherData(city) {
         document.querySelector("#myE").style.display = "block";
         document.querySelector("#weather").style.display = "none";
         document.querySelector(".error").style.display = "block";
-        document.querySelector(".weather-container").style.height = "40vh";
+        // document.querySelector(".weather-container").style.height = "40vh";
     }
     else{
         const data = await response.json();
