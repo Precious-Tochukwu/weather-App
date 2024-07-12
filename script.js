@@ -21,7 +21,6 @@ async function getWeatherData(city) {
     }
     else{
         const data = await response.json();
-        ssjsn
     console.log(data);
 
     document.querySelector(".city").innerHTML = data.name;
