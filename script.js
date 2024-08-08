@@ -28,9 +28,9 @@ async function getWeatherData(city) {
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-    if(data.weather[0].main == "Clouds"){
-        myImg.src = "./image/clouds.png"
-    }
+    // if(data.weather[0].main == "Clouds"){
+    //     myImg.src = "./image/clouds.png"
+    // }
     if(data.weather[0].main == "Clear"){
         myImg.src = "./image/clear.png"
     }
