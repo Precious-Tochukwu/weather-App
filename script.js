@@ -50,9 +50,9 @@ async function getWeatherData(city) {
     // document.querySelector(".city").style.display = "block";
     // document.querySelector(".temp").style.display = "block";
     // document.querySelector(".temperature").style.opacity = "10";
-    document.querySelector("#weather").style.display = "block";
-    document.querySelector(".weather-container").style.height = "65vh";
-    document.querySelector("#myE").style.display = "none";
+    // document.querySelector("#weather").style.display = "block";
+    // document.querySelector(".weather-container").style.height = "65vh";
+    // document.querySelector("#myE").style.display = "none";
     }
     
 }
